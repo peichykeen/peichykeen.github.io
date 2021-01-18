@@ -1,0 +1,101 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #7395AE;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(206, 94, 94);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #F2F1E8;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #050533;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #main {
+    transition: margin-left .5s;
+    padding: 0px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+#bg {
+    height: 100vh;
+    width: 100vw;
+    background: url(/MEDIA/492726.jpg);
+    background-color: #7395AE;
+    background-blend-mode: screen;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+}
+
+#me {
+    border-radius: 50%;
+    border: solid #050533;
+    max-width: 13%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14%;
+  }
+
+h1 {
+    font-family: 'Economica', sans-serif;;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px;
+    text-align: center;
+    color: #050533;
+    font-size: 50px;
+  }
+
+p {
+    font-family: 'Economica', sans-serif;;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #050533;
+    font-size: 20px;
+  }

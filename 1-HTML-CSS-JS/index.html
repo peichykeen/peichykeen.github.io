@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dustin's Portfolio</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/2-Bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!--CSS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="index.css">
+
+</head>
+<body>
+
+    <div id="main">
+        <div id="bg">
+            <img id="me" src="/MEDIA/Avatars.png" alt="a picture of me" />
+            <h1 id="header" ><em> Dustin R. Cook </h1></em>
+            <p id="intro"> Full-stack software engineer </p>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">GitHub</a>
+            <a href="#">Resume</a>
+            <a href="#">Contact</a>
+        </div>
+        <div id="hidden">
+        <span id="button" style="font-size:30px;cursor:pointer;color: #050533" onclick="openNav(); changeVisibility()">&#9776; open</span>
+        </div>
+    </div>
+
+
+    <!--JQ, P, BS & JS-->
+    <script src="/2-Bootstrap/node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="/2-Bootstrap/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/2-Bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
