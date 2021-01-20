@@ -69,13 +69,20 @@ body {
 #me {
     border-radius: 50%;
     border: solid #050533;
-    max-width: 13%;
+    max-width: 25%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 14%;
+    position: relative;
+    
   }
+
+#header, #intro {
+  position: relative;
+  
+}
 
 h1 {
     font-family: 'Economica', sans-serif;;
